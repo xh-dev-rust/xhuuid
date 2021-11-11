@@ -1,0 +1,18 @@
+[package]
+name = "xhuuid"
+version = "0.1.0"
+edition = "2018"
+
+license = "MIT"
+keywords = ["utils"]
+description = "A library for get new uuid and copy to clipboard"
+homepage = "https://github.com/xh-dev-rust/xhuuid"
+repository = "https://github.com/xh-dev-rust/xhuuid"
+documentation = "https://github.com/xh-dev-rust/xhuuid"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uuid = { version = "0.8", features = ["serde", "v4"] }
+clipboard = "0.5.0"
